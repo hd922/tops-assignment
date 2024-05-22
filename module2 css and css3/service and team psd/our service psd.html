@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .container1 {
+        height: 100vh;
+        width: 50%;
+        background-color: #202020;
+
+    }
+
+    .container2 {
+        width: 50%;
+        height: 100vh;
+        background-image: url(../img/multi-background/img-1.png);
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        font-size: 36px;
+        letter-spacing: 4px;
+        color: #f4f5f9;
+        font-weight: 700;
+        font-family: "Source Sans 3";
+    }
+
+    .heading {
+        display: flex;
+        gap: 25px;
+        position: relative;
+        top: 120px;
+        left: 330px;
+    }
+
+    .bar {
+        margin-top: 5px;
+        border-radius: 10px;
+        width: 6px;
+        height: 36px;
+        background-color: #e74c3c;
+        
+    }
+
+    h3 {
+        width: 587px;
+        height: 65px;
+        font-size: 18px;
+      
+        color: #e74c3c;
+        font-weight: 600;
+        font-family: "Source Sans 3";
+        text-align: right;
+    }
+
+    .para {
+        width: 587px;
+        height: 74px;
+        font-size: 14px;
+ 
+        color: #999999;
+        font-weight: 400;
+        font-family: "Source Sans 3";
+        text-align: right;
+    }
+
+    .data {
+        margin-left: 50px;
+        margin-top: 160px;
+    }
+
+    .mainround {
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+    }
+
+    .round {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+
+        background-color: white;
+        display: flex;
+
+        position: relative;
+        right: 25px;
+        top: 210px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .linemain {
+        position: absolute;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    .line {
+        border-radius: 5px;
+        opacity: 0.251;
+        width: 2px;
+        height: 40px;
+        background-color: #f8450f;
+
+    }
+
+    .line:hover {
+        opacity: 1;
+        background-color: #dc0505;
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <div class="container1">
+            <div class="linemain">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="heading">
+                <h1>OUR SERVICES</h1>
+                <div class="bar"></div>
+            </div>
+
+            <div class="data">
+                <h3>WEB DESIGN</h3>
+                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum
+                    has been the
+                    industry's standard dummy text ever.</p>
+                <h3>PRINT DESIGN</h3>
+                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum
+                    has been the
+                    industry's standard dummy text ever. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.</p>
+                <h3>PHOTOGRAPHY</h3>
+                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum
+                    has been the
+                    industry's standard dummy text ever. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Dolore, pariatur.</p>
+            </div>
+
+        </div>
+        <div class="container2">
+            <div class="mainround">
+                <div class=" round"><img src="../img/multi-background/Forma 1.png" alt=""></div>
+                <div class="round"><img src="../img/multi-background/Forma 2.png" alt=""></div>
+                <div class="round"><img src="../img/multi-background/Forma 3.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

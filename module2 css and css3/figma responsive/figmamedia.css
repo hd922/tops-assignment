@@ -1,0 +1,820 @@
+@media (max-width: 575.98px) {
+    .link {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .save {
+        display: none;
+    }
+
+    .get {
+        border-radius: 15px;
+
+    }
+
+    #check1 {
+        display: block;
+        opacity: 0;
+        height: 20px;
+        width: 20px;
+        position: relative;
+        left: 210px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    #dots {
+        display: block;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 190px;
+    }
+
+    #check1:checked~.link {
+
+        display: block;
+        z-index: 1;
+        background-color: rgb(218, 207, 207);
+        color: black;
+        position: absolute;
+        top: 90px;
+        width: 100vw;
+
+    }
+
+    .link {
+        display: none;
+        padding-left: 0px;
+        gap: 0px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    a {
+        display: flex;
+        gap: 25px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .get {
+
+        width: 160px;
+        height: 21px;
+        border-radius: 11px;
+        background-color: #f2f9eb;
+        font-size: 13px;
+        line-height: 13px;
+        color: #35414b;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .manage {
+        margin-left: 90px;
+        width: 70%;
+        height: 120px;
+        font-size: 32px;
+        line-height: 40px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    @keyframes heading {
+        from {
+            down: 0px;
+            opacity: 0;
+
+        }
+
+        to {
+
+            up: 0px;
+        }
+
+
+    }
+
+    .manage+p {
+        margin-left: 75px;
+        width: 80%;
+        font-size: 16px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #try {
+        margin-top: 5px;
+        width: 318px;
+        height: 52px;
+        border-radius: 4px;
+
+        border: 1px solid #794cff;
+    }
+
+    #try~button {
+        margin-top: 0px;
+        width: 318px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .wholebutton {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .graph1 {
+        background-image: url(../img/figma/Graph\ 2\ 1.png);
+        background-size: contain;
+        width: 98%;
+        height: 400px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .screen-image {
+        width: 80%;
+
+
+    }
+
+
+    .h3 {
+        width: 20%;
+        font-size: 11px;
+        line-height: 11px;
+        text-align: center;
+    }
+
+
+    .screen-image {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+    .second-container {
+        display: block;
+        background-color: #fbfafe;
+        border: 1px solid #dedae6;
+    }
+
+    .bggroup img {
+        width: 80%;
+    }
+
+
+
+    .team h1 {
+        font-size: 18px;
+        width: 100%;
+
+    }
+
+    .team p {
+        font-size: 14px;
+        width: 100%;
+        margin-right: 150px;
+
+    }
+
+    .sur h1 {
+
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .sur p {
+
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .lilbar {
+
+        /* height: 8px; */
+        background-color: #794cff;
+        /* margin-top: 10px; */
+    }
+
+
+
+
+    .sur hr {
+        height: 0px;
+        margin-top: 20px;
+        background-color: #000000;
+        border: 1.0000000000000038px solid #f0ebfa;
+    }
+
+
+
+
+    .box3 {
+        width: 100vw;
+        margin: 10px 10px;
+    }
+
+
+
+    .sur {
+        width: 372px;
+        height: 128px;
+        font-size: 10px;
+        margin: 10px 30px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+    }
+
+    .sur p {
+        width: 308px;
+        height: 48px;
+        font-size: 16px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .lilbar {
+        margin-top: 100px;
+        width: 348px;
+    }
+
+    .box3 {
+        position: static;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sur1 {
+
+
+        width: 320px;
+        height: 128px;
+        border-radius: 8px;
+        background-color: #f6f3fc;
+    }
+
+
+
+
+    hr {
+        width: 100%;
+        height: 0px;
+        background-color: #000000;
+        border: 1.0000000000000038px solid #f0ebfa;
+    }
+
+    .grid {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .hi {
+        flex-wrap: wrap;
+    }
+
+    .grid {
+        display: grid;
+        justify-content: start;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .thirdcontainer h1 {
+        margin: 80px;
+        font-size: 40px;
+        line-height: 40px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: right;
+    }
+
+    .fourth-container {
+        width: 100%;
+        /* margin-left: 100px; */
+    }
+
+    .contant2 {
+        margin-top: 80px;
+        margin-left: 100px;
+        /* width: 50%; */
+    }
+
+    .google-play {
+        flex-direction: column;
+    }
+
+    .i-phone {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    /* .link {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .save {
+        display: none;
+    }
+
+    .get {
+        border-radius: 15px;
+
+    } */
+
+    #check1 {
+        display: block;
+        opacity: 0;
+        height: 20px;
+        width: 20px;
+        position: relative;
+        left: 210px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    #dots {
+        display: block;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 190px;
+    }
+
+    #check1:checked~.link {
+
+        display: block;
+        z-index: 1;
+        background-color: rgb(75, 61, 61);
+        position: absolute;
+        color: black;
+        top: 90px;
+        width: 100vw;
+
+    }
+
+    .link {
+        display: none;
+        padding-left: 0px;
+        gap: 0px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    a {
+        display: flex;
+        gap: 25px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .get {
+
+        width: 160px;
+        height: 21px;
+        border-radius: 11px;
+        background-color: #f2f9eb;
+        font-size: 13px;
+        line-height: 13px;
+        color: #35414b;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .manage {
+        margin-left: 90px;
+        width: 70%;
+        height: 120px;
+        font-size: 32px;
+        line-height: 40px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    @keyframes heading {
+        from {
+            down: 0px;
+            opacity: 0;
+
+        }
+
+        to {
+
+            up: 0px;
+        }
+
+
+    }
+
+    .manage+p {
+        margin-left: 75px;
+        width: 80%;
+        font-size: 16px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #try {
+        margin-top: 5px;
+        width: 318px;
+        height: 52px;
+        border-radius: 4px;
+
+        border: 1px solid #794cff;
+    }
+
+    #try~button {
+        margin-top: 0px;
+        width: 318px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .wholebutton {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .graph1 {
+        background-image: url(../img/figma/Graph\ 2\ 1.png);
+        background-size: contain;
+        width: 98%;
+        height: 400px;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .screen-image {
+        margin-left: 45px;
+        gap: 10px;
+
+    }
+
+
+    .h3 {
+        width: 318px;
+        height: 11px;
+        font-size: 11px;
+        line-height: 11px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+
+    .screen-image {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+    .second-container {
+        display: block;
+        background-color: #fbfafe;
+        border: 1px solid #dedae6;
+    }
+
+    .group img {
+
+        margin: 0px 0px;
+        width: 332px;
+    }
+
+    .sur {
+        font-size: 18px;
+        line-height: 18px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .sur p {
+        width: 308px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .lilbar {
+
+        height: 8px;
+        background-color: #794cff;
+    }
+
+    .sur1 {
+        font-size: 15px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        position: relative;
+        right: 10px;
+        width: 150px;
+        height: 128px;
+        border-radius: 8px;
+        background-color: #f6f3fc;
+    }
+
+    .sur1 h1 {
+        position: relative;
+        left: 20px;
+    }
+
+    .sur1 p {
+        position: relative;
+
+        width: 360px;
+        height: 48px;
+        font-size: 19px;
+        line-height: 24px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    hr {
+
+        height: 0px;
+        background-color: #000000;
+        border: 1.0000000000000038px solid #f0ebfa;
+    }
+
+    .team {
+        font-size: 18px;
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+    }
+
+
+    .box3 {
+        width: 100%;
+        margin: 10px 10px;
+    }
+
+
+    .fourth-container {
+        width: 100%;
+        /* margin-left: 100px; */
+    }
+
+    .contant2 {
+        margin-top: 80px;
+        margin-left: 100px;
+        width: 80%;
+    }
+
+    .grid {
+        flex-wrap: wrap;
+    }
+
+    .hi {
+        flex-wrap: wrap;
+    }
+
+    .team {
+        font-size: 8px;
+
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        width: 150px;
+    }
+
+    .grid {
+        display: grid;
+        justify-content: start;
+
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .third-container h1 {
+
+        margin: 80px;
+        font-size: 40px;
+        line-height: 40px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: right;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+
+    .navbar h1 {
+        margin-top: 5px;
+        font-size: 10px;
+        cursor: pointer;
+
+    }
+
+    /* .link a {
+        font-size: 10px;
+        margin-top: 5px;
+    } */
+
+    .login {
+        font-size: 10px;
+    }
+
+    .button {
+        font-size: 10px;
+    }
+
+    .second-container {
+        display: block;
+        background-color: #fbfafe;
+        border: 1px solid #dedae6;
+    }
+
+    .group img {
+
+        margin: 0px 0px;
+        width: 332px;
+    }
+
+    .sur {
+        font-size: 18px;
+        line-height: 18px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .sur p {
+        width: 308px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .lilbar {
+
+        height: 8px;
+        background-color: #794cff;
+    }
+
+    .sur1 {
+        font-size: 15px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        position: relative;
+        right: 10px;
+        width: 150px;
+        height: 128px;
+        border-radius: 8px;
+        background-color: #f6f3fc;
+    }
+
+    .sur1 h1 {
+        position: relative;
+        left: 20px;
+    }
+
+    .sur1 p {
+        position: relative;
+
+        width: 360px;
+        height: 48px;
+        font-size: 19px;
+        line-height: 24px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    hr {
+
+        height: 0px;
+        background-color: #000000;
+        border: 1.0000000000000038px solid #f0ebfa;
+    }
+
+    .team {
+        font-size: 18px;
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+
+    .navbar h1 {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-left: 75px;
+
+    }
+
+    .link a {
+        font-size: 13px;
+    }
+
+
+    .login {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 13px;
+        width: 10%;
+        margin: 30px 44px;
+    }
+}
+
+
+@media (max-width: 1399.98px) {
+    /* .navbar h1 {
+        padding-top: 40px;
+        padding-left: 75px;
+        font-size: 35px;
+
+
+    } */
+
+
+
+
+
+}

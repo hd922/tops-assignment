@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+.container
+{
+height: 100vh;
+width: 100%;
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/clip-path/bg.png);
+clip-path: polygon(
+ 0 0, 
+ 100% 0,
+ 100% 80%,
+ 50% 96%,
+ 0 80%);
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+nav
+{
+    height: 100px;
+    width: 100%;
+    
+}
+ nav img{
+    width: 150px;
+    position: absolute;
+     top:17px;
+     left: 12%;
+}
+nav ul
+{
+    list-style: none;
+    float: right;
+    margin-right: 25px;  
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 15px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 18px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    
+}
+nav ul li a:hover
+{
+    color: rgb(235, 7, 7);
+    transition: 0s;
+}
+nav ul li a:before
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    content: '';
+    width: 100%;
+    background: rgb(223, 6, 6);
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear ;
+}
+nav ul li a:hover:before
+    {
+        transform: scale(1);
+        transform-origin: left;
+        
+        
+    }
+
+label #btn,
+label #cancel{
+color: white;
+font-size: 30px;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+display: none;
+cursor: none;
+}
+
+#check
+{
+display:none;
+}
+
+
+.text h5
+{
+color: #f4f5f9;
+margin-top: 135px;
+text-align: center;
+font-size: 24px;
+}
+.text h1
+{
+color: #f4f5f9;;
+margin-right: 30px;
+text-align: center;
+padding-top:1px;
+font-size: 72px;
+letter-spacing: 7px;
+color: #f4f5f9;
+font-weight: 700;
+font-family: "Open Sans";
+}
+
+.next
+{
+display: flex;
+justify-content: space-between;
+color: black;
+}
+.next1 i
+{
+margin-left: 35px;
+}
+.next1 i:hover
+{
+color: #eb230d;
+transition: .2s;
+}
+.next2 i
+{
+margin-right: 35px;
+}
+.next2 i:hover
+{
+color: #eb230d;
+transition: .2s;
+}
+.circle
+{
+display: flex;
+justify-content: center;
+}
+.circle1
+{
+justify-content: center;
+height: 1px;
+width: 100px;
+border: 1px solid white;
+}
+.circle i
+{
+
+margin-bottom: 20px;
+margin-left: 20px;
+color: brown;
+
+}
+.circle2
+{
+margin-left: 30px;
+height: 1px;
+width: 100px;
+border: 1px solid white;
+}
+p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #cbc6c0;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+padding-top: 10px;
+}
+.bt1
+{
+justify-content: center;
+display: flex;
+padding-top: 0px;
+margin-top: 10px;
+
+}
+.bt2 
+{
+display: flex;
+margin-left: 10px;
+
+}
+.bt2 button
+{
+background: transparent;
+border: 1px solid white;
+cursor: pointer;
+}
+.bt2 button:hover
+{
+background-color: #eb230d;
+transition: 2s;
+}
+button
+{
+margin: 5px;
+height: 45px;
+width: 200px;
+background-color:#eb230d;
+color: white;
+border: 0px;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.caantant
+{
+height: 100vh;
+width: 100%;
+background-color: white;
+}
+
+
+.dt
+{
+background-color: #f4f5f9;
+width: 50px;
+height: 50px;
+border-radius: 50px;
+position: absolute;
+left: 50%;
+bottom:0;
+box-shadow: 0px 0px 25px 0px rgb(224, 222, 222);
+}
+.dt i
+{
+margin-top: 25px;
+color:brown;
+
+margin-left: 8px;
+}
+
+
+.cantant
+{
+height: 100vh;
+width: 100%;
+background-color: white;
+
+}
+.box
+{
+background-color: white;
+display: flex;
+flex-direction: column;
+height: 350px;
+width: 250px;
+
+
+}
+.part
+{
+height: 150px;
+width: 250px;
+transform: rotate(45deg);
+margin-left: 20px;
+}
+.part i{
+color:brown;
+justify-content: center;
+display: flex;
+transform: rotate(-45deg);
+cursor: pointer;
+}
+.part1 i{
+color:brown;
+justify-content: center;
+display: flex;
+}
+.square
+{
+height: 100px;
+width: 100px;
+padding:50px;
+border: 3px solid #f4f5f9;
+margin-left: 60px;
+margin-top: 47px;
+cursor: pointer;
+
+}
+.square:hover
+{
+border: 3px solid brown;
+transition: 1s;
+}
+
+.part2 h2
+{
+margin-top: 10px;
+margin-left: 25px;
+color:black;
+cursor: pointer;
+
+}
+.part2 h2:hover
+{
+color: brown;
+transition: 1s;
+}
+.line
+{
+margin-top: 10px;
+margin-left: 80px;
+height: 1px;
+width: 70px;
+border: 1px solid black;
+}
+.part2 p{
+color: black;
+}
+.gallery
+{
+display: flex;
+justify-content: center;
+}
+
